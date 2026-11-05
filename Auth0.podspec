@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/auth0/Auth0.swift'
   s.license          = 'MIT'
   s.authors          = { 'Auth0' => 'support@auth0.com', 'Rita Zerrizuela' => 'rita.zerrizuela@auth0.com' }
-  s.source           = { :git => 'https://github.com/Objectway/Auth0.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Objectway/Auth0.swift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/auth0'
   s.source_files     = 'Auth0/**/*.swift'
   s.resource_bundles = { s.name => 'Auth0/PrivacyInfo.xcprivacy' }
